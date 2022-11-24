@@ -5,6 +5,8 @@ import plotly.figure_factory as ff
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+st.set_option('deprecation.showPyplotGlobalUse', False)
+
 st.title('Deep Learning for Bioreactor Modelling and Control-Optimization')
 st.markdown("""
 This app performs allows Bioreactor start up to determine their feedstock characteristics and 
@@ -36,6 +38,8 @@ if uploaded_file is not None:
 else:
     st.write('Awaiting CSV file to be uploaded.')
 
+  
+  
 # 2. Prediction of feedstocks parameters
 st.header('Prediction of feedstock parameters')
 if uploaded_file is not None:
@@ -44,10 +48,6 @@ if uploaded_file is not None:
     """)
 else:
     st.write('Awaiting CSV file to be uploaded.')
-
-
-
-
 
 
 
@@ -61,6 +61,9 @@ else:
 #st.write([prediction])
 
 
+
+
+# THIS PART OF THE CODE IS NOT NECESSARY FOR THE PROJECT
 # 3. Forecasting data
 with st.sidebar:
         st.write("Select bioreactor process characteristics for forecasting:")
@@ -87,7 +90,7 @@ The forecasting option is still in progress and will soon be available!
 """)
 
 
-st.set_option('deprecation.showPyplotGlobalUse', False)
+
 
 #df.hist()
 #st.pyplot()
