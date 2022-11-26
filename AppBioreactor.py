@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import plotly.figure_factory as ff
 import matplotlib.pyplot as plt
-import seaborn as sns
+#import seaborn as sns
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
