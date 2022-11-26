@@ -109,5 +109,5 @@ The forecasting option is still in progress and will soon be available!
 #st.pyplot()
 
 
-#st.area_chart(input_df["Days"])
+#st.area_chart(input_df["Dayss"])
 
