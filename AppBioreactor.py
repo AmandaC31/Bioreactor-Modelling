@@ -5,7 +5,7 @@ import plotly.figure_factory as ff
 import matplotlib.pyplot as plt
 #import seaborn as sns
 
-st.set_option('deprecation.showPyplotGlobalUse', False)
+#st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.title('Deep Learning for Bioreactor Modelling and Control-Optimization')
 st.markdown("""
