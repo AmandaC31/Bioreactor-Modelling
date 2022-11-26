@@ -78,7 +78,7 @@ else:
 
 
 # 3. Forecasting data
-with st.sidebar:
+st.sidebar:
         st.write("Select bioreactor process characteristics for forecasting:")
 def user_input_features():
         Biotype = st.sidebar.selectbox('Bioreactor type',('plug flow','batch'))
